@@ -1,0 +1,150 @@
+@import url("https://fonts.google.com/specimen/Poppins");
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }       
+  
+  ol, ul {
+    list-style: none;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  body{
+      background-color: #FF7978;
+      background-image: url("images/bg-intro-desktop.png");
+      text-align: center;
+  }
+  .attribution{
+    padding-top: 100px;
+  }
+  .wraper{
+      width: 1000px;
+      height: 500px;
+      margin: auto;
+      margin-top: 150px;
+      display: flex;
+  }
+  .container1{
+      height: 100%;
+      width: 50%;
+  }
+  .container2{
+      height: 100%;
+      width: 50%;
+  }
+  h1, p{
+      font-family: 'Poppins' , sans-serif;
+      color: white;
+  }
+  h1{
+    font-weight: 700;
+    font-size: 40px;
+    padding: 170px 0 20px;
+  }
+  p{
+    font-weight: 400;
+  }
+  .cont2-1{
+      width: 100%;
+      height: 10%;
+      background-color: hsl(248, 32%, 49%);
+      border-radius: 10px;
+      box-shadow: 0px 10px #D96669;
+      text-align: center;
+  }
+  .cont2-2{
+      width: 100%;
+      height: 80%;
+      border-radius: 10px;
+      background-color: white;
+      margin-top: 40px;
+      box-shadow: 0px 10px #D96669;
+      padding: 40px;
+  }
+  .cont2-1 p{
+      padding: 16px;
+  }
+  .sign-up{
+    width: 80%;
+    height: 350px;
+    margin: auto;
+  }
+  .name, .lastname, .email, .pass, .claim, .button{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color:  hsl(249, 10%, 26%) ;
+  }
+  .lastname, .email, .pass, .claim, .button{
+    margin-top: 18px;
+  }
+  .name, .lastname, .email, .pass, .claim, .button{
+    padding:10px;
+  }
+  .claim{
+    text-align: center;
+    background-color: rgb(28, 167, 28);
+    color: white;
+  }
+  .button{
+    border: none;
+    font-size: 10px;
+    text-align: center;
+  }
+  .button strong{
+    color: red;
+  }
+  .name, .lastname, .email, .pass{
+    padding-left: 20px;
+  }
+
+  /* mobile */
+
+  @media screen and (max-width: 768px){
+    .wraper{
+      width: 375px;
+      height: auto;
+      display: inline-block;
+      margin: 0;
+    }
+    .container1{
+      width: 100%;
+      height: auto;
+      text-align: center;
+      padding: 20px;
+    }
+    .container2{
+      width: 100%;
+      height: auto;
+      padding: 20px;
+    }
+    h1{
+      padding-top: 60px;
+      font-size: 30px;
+    }
+    .container1 p{
+      font-size: 15px;
+    }
+    .cont2-1 p{
+      font-size: 12px;
+    }
+    
+
+  }
+  
+  
+  
+ 
